@@ -29,6 +29,7 @@ requirements:
     - psutil
     - sqlalchemy >=0.8.0
     - toolz
+    - pandas =0.19
   run:
     - python
     - contextlib2  # [py2k]
@@ -45,6 +46,7 @@ requirements:
     - pyyaml
     - requests
     - sqlalchemy >=0.8.0
+    - pandas =0.19
 
 test:
   imports:
