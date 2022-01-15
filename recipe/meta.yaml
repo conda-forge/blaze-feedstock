@@ -11,13 +11,13 @@ source:
   sha256: 9c3725759d20ecf164b38c125a0417c2d294f0fa657367c92748bcd312c3af1c
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - blaze-server = blaze.server.spider:_main
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - contextlib2  # [py2k]
